@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Press+Start+2P&family=Roboto+Mono:wght@400;700&family=VT323&display=swap');
+
+:root
+{
+    --black-800--: #000;
+    --white-800--: #FFF;
+    --brown-300--: #AE614C;
+}
+
+.tipografia_titulos, a{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    font-size: 25px;
+    color: var(--black-800--);
+}
+
+.tipografia_texto{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--black-800--);
+}
+
+
+.centralize_text{
+    text-align: center;
+}
+
+.upercase{
+    text-transform: uppercase;
+}
+
+.tipografia_especial_01{
+    font-family: 'Bungee Shade', cursive;
+    font-size: 50px;
+    color: var(--black-800--);
+}
+
+.tipografia_especial_02{
+    font-family: 'Bungee Shade', cursive;
+    font-size: 40px;
+    color: var(--black-800--);
+}
+
+.tipografia_especial_03{
+    font-family: 'Bungee Shade', cursive;
+    font-size: 37px;
+    color: var(--black-800--);
+}
+
+.divisoria{
+    border: none; 
+    height: 2px; 
+    background-color: #000;
+    width: 95%;
+}
+
+.divisoria_2{
+    border: none; 
+    height: 2px; 
+    background-color: #000;
+    width: 95%;
+    position: absolute;top: 81%; left: 2%;
+
+}
+
+.position_divisoria_footer{
+    position: absolute;
+}
+
+.flex-column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+}
+
+.flex_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 55%;
+    margin-left: 20.5%;
+    margin-top: 1%;
+
+}
+
+.flex_container_2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 1%;
+
+}
+
+.tipografia_lista{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    font-size: 19px;
+    color: var(--black-800--);
+}
+
+.tipografia_titulos_2{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--black-800--);
+
+}
+
+ .h3_experiencia{
+    width: 90%;
+    margin-left: 10%;
+    margin-top: 0.6%;
+ }
+
+ .li_experiencia{
+    text-align: start; 
+    margin-left:  15%; 
+    list-style-type: disc;
+    width: 75%;
+ }
+
+.ul_experiencia{
+    margin-top: 0.5%;
+}
+
+
+
+
+
+
